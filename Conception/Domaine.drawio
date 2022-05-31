@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T09:58:44.926Z" agent="5.0 (Windows)" etag="TieA2IE5uabBLdQjx84F" version="18.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-31T13:48:02.706Z" agent="5.0 (Windows)" etag="KjsBZD_PYoKMtQ8Xymc7" version="18.1.3" type="github" pages="3">
   <diagram id="wkbdaEnrbXeY8MJsiPsy" name="Domaine">
     <mxGraphModel dx="1195" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,14 +110,14 @@
         <mxCell id="JlCu7Rt74AODUVbhi9vR-17" value="+ Pay(Number sum): (boolean, Number)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="JlCu7Rt74AODUVbhi9vR-7">
           <mxGeometry y="190" width="315" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="JlCu7Rt74AODUVbhi9vR-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="R4sMu0DY9upS_9sUgCj5-3" target="JlCu7Rt74AODUVbhi9vR-7">
+        <mxCell id="JlCu7Rt74AODUVbhi9vR-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R4sMu0DY9upS_9sUgCj5-3" target="R4sMu0DY9upS_9sUgCj5-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="270" as="targetPoint" />
             <mxPoint x="249.0400000000002" y="379.65999999999985" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R4sMu0DY9upS_9sUgCj5-1" value="Size" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="100" y="284" width="160" height="112" as="geometry">
+          <mxGeometry x="70" y="535" width="160" height="112" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -134,7 +134,7 @@
           <mxGeometry y="104" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="R4sMu0DY9upS_9sUgCj5-6" value="Juice" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="420" y="530" width="160" height="138" as="geometry">
+          <mxGeometry x="426" y="530" width="160" height="138" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -154,7 +154,7 @@
           <mxGeometry y="130" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="R4sMu0DY9upS_9sUgCj5-12" value="Client" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="220" y="30" width="160" height="138" as="geometry">
+          <mxGeometry x="40" y="271" width="160" height="138" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -264,6 +264,9 @@
           <mxGeometry x="-0.2721" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4a4bJY6Org7klHIGJ-7R-1" value="A menu is a selection of the juice and the size of the drink" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
